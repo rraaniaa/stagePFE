@@ -32,6 +32,11 @@ Route::get('/category', function () {
 });
 
 
+Route::get('/cp', function () {
+    return view('client.shopcategory');
+});
+
+
 Route::get('/cart', function () {
     return view('client.shoppingCart');
 });
