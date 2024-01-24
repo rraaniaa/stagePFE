@@ -41,6 +41,9 @@
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Shop</a>
                 <ul class="dropdown-menu">
+
+
+
                   <li class="nav-item"><a class="nav-link" href="category">Shop Category</a></li>
                   <li class="nav-item"><a class="nav-link" href="shop-single">Product Details</a></li>
                   <li class="nav-item"><a class="nav-link" href="checkout">Product Checkout</a></li>
@@ -66,6 +69,7 @@
                 </ul>
               </li>
               <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link" href="login">Login</a></li>
             </ul>
 
             <ul class="nav-shop">

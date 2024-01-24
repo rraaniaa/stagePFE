@@ -22,6 +22,9 @@ Route::get('/order', function () {
 });
 
 
+
+
+
 Route::get('/checkout', function () {
     return view('client.productCheckout');
 });
@@ -47,8 +50,14 @@ Route::get('/shop-single', function () {
 });
 
 
+Route::get('/dash', function () {
+    return view('vendeur.dash');
+});
 
 
+Route::get('/milestone', function () {
+    return view('vendeur.milestone');
+});
 
 
 
