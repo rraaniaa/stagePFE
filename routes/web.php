@@ -69,7 +69,7 @@ return view("vendeur.product.addProduct");
 });
 
 
-Rout :: get('/add')
+
 
 
 
