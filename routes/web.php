@@ -24,8 +24,6 @@ Route::get('/order', function () {
 
 
 
-
-
 Route::get('/checkout', function () {
     return view('client.productCheckout');
 });
@@ -65,12 +63,14 @@ Route::get('/List-produit', function (){
 });
 
 
-
-
 Route::get('/add-product' , function(){
 return view("vendeur.product.addProduct");
 
 });
+
+
+Rout :: get('/add')
+
 
 
 
@@ -86,3 +86,7 @@ Route::get('/pdf', function(){
 return view("pdfViewer");
 
 });
+
+
+
+
